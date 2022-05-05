@@ -32,7 +32,7 @@ function CrudeComponent() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(value)  //Evidence for await not working
+        console.log(value)  
 
 
         if (name != '' && age != '' && email != '') {
