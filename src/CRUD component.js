@@ -25,7 +25,7 @@ function CrudeComponent() {
             'https://622c4098087e0e041e06abea.mockapi.io/users'
         );
         // console.log(response.data);
-        await setValue({ user: response.data }) //Doubt await not working
+        await setValue({ user: response.data }) 
 
         console.log(value)
     }, [])
