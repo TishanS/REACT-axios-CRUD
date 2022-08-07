@@ -4,8 +4,6 @@ import CrudeComponent from './CRUD component';
 
 function App() {
   return (
-   
-
     <CrudeComponent/>
   );
 }
